@@ -167,7 +167,7 @@ function visualize(){
 					d3.max(data, function(d) { return d.mean_prob_companies_acquired_by_state; })
 				]);
 				//Load in GeoJSON data
-				d3.json("..\\us-states.json").then(function(json) {
+				d3.json("./data/us-states.json").then(function(json) {
 					//Merge the ag. data and GeoJSON
 					//Loop through once for each ag. data value
 					for (var i = 0; i < data.length; i++) {
