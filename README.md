@@ -49,13 +49,24 @@ Some of the top features include:
 
 From the Correlograms, we can see that there isn’t a very high correlation between the individual features. Thus, most of the features are unique and can be used for training the model.
 
-
+![corr](https://user-images.githubusercontent.com/29097566/48717478-7f44fb00-ebe7-11e8-8d93-4f2d6ea1c5b2.png)
 
 #### **Visualization #2**
 
+Sankey diagram visualizing number of key relationships a company has to its success/failure. We can see that companies with fewer relationships are more likely to fail as compared to companies with more relationships.
 
+![sankey1](https://user-images.githubusercontent.com/29097566/48718347-342be780-ebe9-11e8-97c6-4f829c6b6a05.JPG)
 
+#### **Visualization #3**
 
+Another sankey diagram showing a similar relationship between number of company milestones and its success/failure.
 
+![sankey2](https://user-images.githubusercontent.com/29097566/48718422-5b82b480-ebe9-11e8-8ce3-d4f19ecdfa0b.JPG)
+
+#### **Visualization #4**
+
+Scatter plot of the total funding a company received to the amount spent on acquiring that company. Companies that have been closed with have an acquisition amount of 0. We can see that there is a positive correlation between the two.
+
+![scatter](https://user-images.githubusercontent.com/29097566/48718553-9f75b980-ebe9-11e8-95b8-d1449da43173.png)
 
 [![Alt text](https://img.youtube.com/vi/lLWEXRAnQd0/0.jpg)](https://www.youtube.com/watch?v=lLWEXRAnQd0)
