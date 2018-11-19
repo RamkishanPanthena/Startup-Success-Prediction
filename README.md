@@ -71,6 +71,28 @@ Scatter plot of the total funding a company received to the amount spent on acqu
 
 ## Task Analysis
 
+| Index (ID #) | "Domain" Task  | Analytic Task (Low-level) | Search Task (Mid-level) | Analyze Task (High-level) |
+|:------------:|:--------------:|:-------------:|:-----------:|:------------:|
+| 1  | Draw Sankey diagram showing relationship between different features and labels | Identify | Explore | Discover |
+| 2  | Discover best model of predicting startup success | Compare | Explore | Derive |
+| 3  | Predict startup success/failure on currently operating companies | Identify | Browse | Present |
+| 4  | Group startup predictions by state and visualize them on a map | Summarize | Browse | Discover |
+
+#### Task #1
+
+In this visualization, one of the most correlated feature will be selected. It will then be grouped into different ranges and the count of records in each group will be correlated with the labels. At the analytic task, we will be **identifying** the top correlated features and grouping them into different ranges. The user can **explore** the relationship between features in each group to their labels. At the high-level, we are helping users visually **discover** the strong correlation between the feature and labels.
+
+#### Task #2
+
+In this step, user will predict best model by **comparing** different machine learning models. He will also have to **explore** different hyper-parameters and then **derive** the final model.
+
+#### Task #3
+
+Based on the model the user selects in the previous task, he will then make predictions and **identify** which startups are likely to succeed or fail. The predictions can be **browsed** through and **presented** to the end user.
+
+#### Task #4
+
+The predictions of the startups have to be grouped by state to get the mean startup success prediction at a state level. At a low-level, this would be a **summarize** task. The use can **browse** through different states **discover** new insights.
 
 
 [![Alt text](https://img.youtube.com/vi/lLWEXRAnQd0/0.jpg)](https://www.youtube.com/watch?v=lLWEXRAnQd0)
