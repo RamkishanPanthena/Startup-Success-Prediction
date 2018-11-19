@@ -1,0 +1,200 @@
+<html>
+<head >
+
+<style> 
+@font-face {
+		src: url(../data/fonts/OpenSans-Regular.ttf);
+		font-family: opensans;
+}
+
+body {
+        font-family: opensans;
+		margin: 20;
+		
+      }
+</style>
+<style>
+#smallbox {
+    padding: 5px;
+    top: 10%;
+    height: 18%;
+    position: relative;
+}
+
+#smallbox2 {
+    padding: 5px;
+    top: 10%;
+    height: 18%;
+    position: relative;
+}
+
+#smallbox3 {
+    padding: 5px;
+    top: 10%;
+    height: 18%;
+    position: relative;
+}
+
+#smallbox4 {
+    padding: 5px;
+    top: 10%;
+    height: 18%;
+    position: relative;
+}
+</style>
+<style type="text/css">
+    .line {
+    fill: none;
+    stroke: #bbaf00;
+    stroke-width: 3;
+}
+  .overlay {
+  fill: none;
+  pointer-events: all;
+}
+
+#tooltip {
+				position: absolute;
+				width: 400px;
+				height: auto;
+				padding: 10px;
+				background-color: rgba(0,0,0,0.9);
+				border:1px solid grey;
+				color: white;
+				-webkit-border-radius: 10px;
+				-moz-border-radius: 10px;
+				border-radius: 10px;
+				-webkit-box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.4);
+				-moz-box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.4);
+				box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.4);
+				pointer-events: none;
+				opacity: 0.8;
+			}
+			
+			#tooltip.hidden {
+				display: none;
+			}
+			
+			#tooltip p {
+				margin: 0;
+				font-family: sans-serif;
+				font-size: 16px;
+				line-height: 20px;
+			}
+			
+			#state {
+				font-weight: bold;
+			}
+  </style>
+<meta charset="UTF-8">
+<title>Client-Server Visualization and Modeling</title>
+</head>
+
+<body >
+
+	<div id="tooltip" class="hidden">
+			<p><span id="state">State</span></p>
+			<p><span id="acquired">100</span></p>
+			<p><span id="closed">100</span></p>
+			<p><span id="prob">100</span></p>
+		</div>
+    <h1 align="center" >Startup Success Prediction: Model development and Analysis</h1>
+  </p>
+<div id="chart"></div>
+
+<section >
+&nbsp;&nbsp;
+<b >Choose a model:  </b> &nbsp;&nbsp;&nbsp;&nbsp;
+
+<select id="modelname" onchange="chooseModel()">
+  <option value="model1">Gradient Boosting</option>
+  <option value="model3">Decision Trees</option>
+  <option value="model2">Random Forests</option>
+</select>
+<br/>
+<br/>
+
+<table>
+<tr>
+
+<td>
+<div id="smallbox2">
+<b >Max depth </b>
+  <div>
+        <form>
+        <br/><input type="number" id=depth ><br>
+        <div id="option">
+  </div>
+</form>
+
+</div>
+</td>
+
+<td>
+<div id="smallbox3">
+<b >Max leaf nodes </b>
+  <div>
+        <form>
+        <br/><input type="number" id=leaf ><br>
+        <div id="option">
+  </div>
+</form>
+
+</div>
+</td>
+
+<td>
+<div id="smallbox4">
+<b >Number of estimators </b>
+  <div>
+        <form>
+        <br/><input type="number" id=estimators ><br>
+        <div id="option">
+  </div>
+</form>
+
+</div>
+</td>
+
+<td>
+<div id="smallbox">
+<b >Learning rate </b>
+  <div>
+        <form>
+        <br/><input type="number" id=lr "><br>
+        <div id="option">
+        
+  </div>
+</form>
+
+</div>
+</td>
+</tr>
+</table>
+
+&nbsp;&nbsp;
+<input name="updateButton" 
+           type="button" 
+		   id = "train"
+           value="Train model and draw ROC Curve" 
+           onclick="connectFlask()" />
+
+&nbsp;&nbsp;&nbsp;&nbsp;    &nbsp;&nbsp;&nbsp;&nbsp;
+<input name="visualize" 
+	   type="button" 
+	   id = "viz"
+	   value="Train model, predict and visualize on new data" 
+	   onclick="visualize()" /><hr>
+
+<div style=" display: inline;">
+  
+</div>
+  
+</section>
+	<div id="chart1"></div>
+	
+<script src="https://d3js.org/d3.v5.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/d3-legend/2.13.0/d3-legend.js"></script>
+<script type="text/javascript" src="./main.js"></script>
+</body>
+</html>
