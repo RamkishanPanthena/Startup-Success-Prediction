@@ -1,3 +1,3 @@
 # Startup-Success-Prediction
 
-[![Video](http://img.youtube.com/vi/-pOmu0LtcI6Y/0.jpg)](http://www.youtube.com/watch?v=-pOmu0LtcI6Y)
+[![Alt text](https://img.youtube.com/vi/lLWEXRAnQd0/0.jpg)](https://www.youtube.com/watch?v=lLWEXRAnQd0)
