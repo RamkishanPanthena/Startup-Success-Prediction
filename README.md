@@ -69,4 +69,8 @@ Scatter plot of the total funding a company received to the amount spent on acqu
 
 ![scatter](https://user-images.githubusercontent.com/29097566/48718553-9f75b980-ebe9-11e8-95b8-d1449da43173.png)
 
+## Task Analysis
+
+
+
 [![Alt text](https://img.youtube.com/vi/lLWEXRAnQd0/0.jpg)](https://www.youtube.com/watch?v=lLWEXRAnQd0)
