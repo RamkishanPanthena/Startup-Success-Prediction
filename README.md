@@ -157,3 +157,10 @@ Another sankey diagram showing a similar relationship between number of company 
 Scatter plot of the total funding a company received to the amount spent on acquiring that company. Companies that have been closed with have an acquisition amount of 0. We can see that there is a positive correlation between the two.
 
 ![scatter](https://user-images.githubusercontent.com/29097566/48718553-9f75b980-ebe9-11e8-95b8-d1449da43173.png)
+
+## Conclusion
+
+We were able to successfully build a machine learning model that predicts the success/failure of a startup. We were also able to implement a web-based client-side visualization connected via a REST API to server-side modeling. We were also able to generate interesting visualizations through preliminary insights and plots.
+
+For future improvements, we could work on extracting more features like evaluate startup presence on the web, number of unique domains mentioning the startup, burn rate etc. Using these features, one could get more ideas on creating more interactive web-based visualizations.
+
