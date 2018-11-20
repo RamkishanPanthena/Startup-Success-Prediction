@@ -110,7 +110,6 @@ Once the user has decided upon his final model and hyper-parameters to use, he w
 
 
 
-
 ### Packages utilized
 
 This project implements a web-based client-side visualization connected via a REST API to server-side modeling which is running on your own server. You will need to install the following Python packages first:
@@ -125,7 +124,9 @@ This project implements a web-based client-side visualization connected via a RE
 
 ### UI Walkthrough
 
+Below is an embedded youtube video giving a walkthrough of the UI
 
+[![Alt text](https://img.youtube.com/vi/cTs7wR2H8cg/0.jpg)](https://www.youtube.com/watch?v=cTs7wR2H8cg)
 
 ## Data Analysis: Summary of interesting results
 
@@ -152,9 +153,3 @@ Another sankey diagram showing a similar relationship between number of company 
 Scatter plot of the total funding a company received to the amount spent on acquiring that company. Companies that have been closed with have an acquisition amount of 0. We can see that there is a positive correlation between the two.
 
 ![scatter](https://user-images.githubusercontent.com/29097566/48718553-9f75b980-ebe9-11e8-95b8-d1449da43173.png)
-
-
-
-Final Visualization: final visualization, design justifications, packages utilized for coding, and UI walk-through
-
-[![Alt text](https://img.youtube.com/vi/lLWEXRAnQd0/0.jpg)](https://www.youtube.com/watch?v=lLWEXRAnQd0)
