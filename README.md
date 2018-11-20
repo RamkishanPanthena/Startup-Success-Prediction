@@ -108,7 +108,11 @@ Once the user has decided upon his final model and hyper-parameters to use, he w
 
 ### Final design sketches
 
-
+![slide1](https://raw.githubusercontent.com/RamkishanPanthena/Startup-Success-Prediction/master/sketches/Final%20Sketches/Slide1.JPG)
+![slide2](https://github.com/RamkishanPanthena/Startup-Success-Prediction/blob/master/sketches/Final%20Sketches/Slide2.JPG)
+![slide3](https://github.com/RamkishanPanthena/Startup-Success-Prediction/blob/master/sketches/Final%20Sketches/Slide3.JPG)
+![slide4](https://github.com/RamkishanPanthena/Startup-Success-Prediction/blob/master/sketches/Final%20Sketches/Slide4.JPG)
+![slide5](https://github.com/RamkishanPanthena/Startup-Success-Prediction/blob/master/sketches/Final%20Sketches/Slide5.JPG)
 
 ### Packages utilized
 
@@ -124,7 +128,7 @@ This project implements a web-based client-side visualization connected via a RE
 
 ### UI Walkthrough
 
-Below is an embedded youtube video giving a walkthrough of the UI
+Below is an embedded youtube video giving a walkthrough of the UI:
 
 [![Alt text](https://img.youtube.com/vi/cTs7wR2H8cg/0.jpg)](https://www.youtube.com/watch?v=cTs7wR2H8cg)
 
