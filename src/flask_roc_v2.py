@@ -107,9 +107,9 @@ def viz(m,d,l,n,c):
     )
 
 
-train_df = pd.read_csv('../data/train-data.csv', encoding = 'utf-8')
-test_df = pd.read_csv('../data/test-data.csv', encoding = 'utf-8')
-states_df = pd.read_csv('../data/states.csv', encoding = 'utf-8')
+train_df = pd.read_csv('../d3/data/train-data.csv', encoding = 'utf-8')
+test_df = pd.read_csv('../d3/data/test-data.csv', encoding = 'utf-8')
+states_df = pd.read_csv('../d3/data/states.csv', encoding = 'utf-8')
 
 features = ['age_first_funding_year', 'age_last_funding_year', 'relationships',
              'funding_total_usd', 'milestones', 'is_CA', 'is_NY', 'is_MA', 'is_TX', 
