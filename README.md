@@ -109,10 +109,10 @@ Once the user has decided upon his final model and hyper-parameters to use, he w
 ### Final design sketches
 
 ![slide1](https://raw.githubusercontent.com/RamkishanPanthena/Startup-Success-Prediction/master/sketches/Final%20Sketches/Slide1.JPG)
-![slide2](https://github.com/RamkishanPanthena/Startup-Success-Prediction/blob/master/sketches/Final%20Sketches/Slide2.JPG)
-![slide3](https://github.com/RamkishanPanthena/Startup-Success-Prediction/blob/master/sketches/Final%20Sketches/Slide3.JPG)
-![slide4](https://github.com/RamkishanPanthena/Startup-Success-Prediction/blob/master/sketches/Final%20Sketches/Slide4.JPG)
-![slide5](https://github.com/RamkishanPanthena/Startup-Success-Prediction/blob/master/sketches/Final%20Sketches/Slide5.JPG)
+![slide2](https://raw.githubusercontent.com/RamkishanPanthena/Startup-Success-Prediction/master/sketches/Final%20Sketches/Slide2.JPG)
+![slide3](https://raw.githubusercontent.com/RamkishanPanthena/Startup-Success-Prediction/master/sketches/Final%20Sketches/Slide3.JPG)
+![slide4](https://raw.githubusercontent.com/RamkishanPanthena/Startup-Success-Prediction/master/sketches/Final%20Sketches/Slide4.JPG)
+![slide5](https://raw.githubusercontent.com/RamkishanPanthena/Startup-Success-Prediction/master/sketches/Final%20Sketches/Slide5.JPG)
 
 ### Packages utilized
 
