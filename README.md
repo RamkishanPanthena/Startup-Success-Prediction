@@ -106,6 +106,25 @@ Once the user has decided upon his final model and hyper-parameters to use, he w
 
 ## Final Visualization
 
+### Final design sketches
+
+
+
+
+### Packages utilized
+
+This project implements a web-based client-side visualization connected via a REST API to server-side modeling which is running on your own server. You will need to install the following Python packages first:
+
+* pandas
+* sklearn
+* numpy
+* flask, flask_cors
+* simplejson
+* Werkzeug
+* csv
+
+### UI Walkthrough
+
 
 
 ## Data Analysis: Summary of interesting results
