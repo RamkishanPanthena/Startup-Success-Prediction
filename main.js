@@ -241,17 +241,17 @@ function visualize(){
 						.style("left", xPosition + "px")
 						.style("top", yPosition + "px")
 						.select("#acquired")
-						.text("Startups predicted to be acquired: " + d.properties.acquired);
+						.text("Startups predicted to be successful: " + d.properties.acquired);
 					d3.select("#tooltip")
 						.style("left", xPosition + "px")
 						.style("top", yPosition + "px")
 						.select("#closed")
-						.text("Startups predicted to be closed: " + d.properties.closed);
+						.text("Startups predicted to fail: " + d.properties.closed);
 					d3.select("#tooltip")
 						.style("left", xPosition + "px")
 						.style("top", yPosition + "px")
 						.select("#prob")
-						.text("Mean probability of startups to be acquired: " + format(d.properties.value));
+						.text("Mean probability of startups to be successful: " + format(d.properties.value));
 			   
 					//Show the tooltip
 					d3.select("#tooltip").classed("hidden", false);
