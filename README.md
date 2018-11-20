@@ -94,5 +94,30 @@ Based on the model the user selects in the previous task, he will then make pred
 
 The predictions of the startups have to be grouped by state to get the mean startup success prediction at a state level. At a low-level, this would be a **summarize** task. The use can **browse** through different states **discover** new insights.
 
+## Model Description
+
+Decision Trees, Random Forests and Gradient Boosted Trees were among the best performing models out of the different machine learning models. Hence these models were chosen for model training. The user should be able to train one of these machine learning models and evaluate them through an ROC Curve. Based on the feedback the user gets from the ROC Curve, he should be able to tweak the hyper-parameters revise the model and re-train it. This should help the user decide upon the best model and hyper-parameters he wants to use for building his final model.
+
+## Design Process
+
+### Initial Sketches and Design Choices
+
+#### Sketch #1: Scatter Plot and Sankey Diagram for EDA
+
+<img src="https://user-images.githubusercontent.com/29097566/48744992-a0cdd300-ec37-11e8-8b4f-469c55532968.jpg" height="350" width="600">
+
+#### Sketch #2: Model selection and hyper-parameter tuning
+
+Here the end user should be able to train different machine learning models and visualize the model performance through an ROC curve. Based on the feedback the user gets from the ROC curve, he should be able to tweak the hyper-parameters, revise the model and re-train it. This should help the user to decide upon the best model and hyper-parameters he wants to use for building his final model.
+
+<img src="https://user-images.githubusercontent.com/29097566/48745223-952edc00-ec38-11e8-8d37-58f96b2bf18d.jpg" height="450" width="600">
+
+#### Sketch #3: Predictions and visualizations by state
+
+Once the user has decided upon his final model and hyper-parameters to use, he will then train the model and make predictions on new data. These predictions would decide whether a currently operating startup would be a success or failure. These results would then be grouped by state and the user will be able to visualize the state wise predictions of startup success/failure. Each state will have a diverging color scale based on the mean prediction probability of a state. As geographic location is one of the top factors in predicting startup performance, this would give the end user an idea of how the startups would perform in each state.
+
+<img src="https://user-images.githubusercontent.com/29097566/48745267-bbed1280-ec38-11e8-902e-48eb44f6daa8.jpg" height="500" width="600">
+
+
 
 [![Alt text](https://img.youtube.com/vi/lLWEXRAnQd0/0.jpg)](https://www.youtube.com/watch?v=lLWEXRAnQd0)
