@@ -74,13 +74,21 @@ The predictions of the startups have to be grouped by state to get the mean star
 
 ## Model Description
 
-Decision Trees, Random Forests and Gradient Boosted Trees were among the best performing models out of the different machine learning models. Hence these models were chosen for model training. The user should be able to train one of these machine learning models and evaluate them through an ROC Curve. Based on the feedback the user gets from the ROC Curve, he should be able to tweak the hyper-parameters revise the model and re-train it. This should help the user decide upon the best model and hyper-parameters he wants to use for building his final model.
+### Summary of modeling options
+
+Initially the model can be trained with a basic Decision Tree model. This simple model will give the user a comprehensive analysis of the consequences of each feature, thereby helping him to decide which features should be included to train the final model. Once he gets an idea of how the model performs, the user can then try ensemble models like Random Forests and Gradient Boosting. Random Forests train several trees using a random sample of the data. This helps make the model more robust and less likely to overfit. Gradient Boosting builds trees one at a time by correcting the errors made by the previous trained tree. Hence these models were chosen for model training.
+
+### Performance evaluations and selecting the best model
+
+Each model will be evaluated by plotting ROC curves. Sometimes classification accuracy alone is not enough to decide if the model is good enough, especially in cases where the data can be unbalanced. If most of the data points belong to one specific class, the model can cleverly decide that the best thing to do is to always predict that class and achieve high accuracy. Thus, an ROC Curve which looks at the True Positive Rate and False Positive Rate thereby looking at models based on the balance thresholds of sensitivity and specificity would be a better way of evaluating the model.
 
 ## Design Process
 
 ### Initial Sketches and Design Choices
 
 #### Sketch #1: Scatter Plot and Sankey Diagram for EDA
+
+A Scatter plot and Sankey diagram will help the user visualize the strong correlation between some of the features and labels. The user should be able to interactively hover his mouse over the data points or the data flow and look at how the features are related to the labels.
 
 <img src="https://user-images.githubusercontent.com/29097566/48744992-a0cdd300-ec37-11e8-8b4f-469c55532968.jpg" height="350" width="600">
 
@@ -110,7 +118,7 @@ Correlograms are images of correlation statistics which show the correlation bet
 
 #### **Visualization #2**
 
-From the below Sankey diagram, we can visualize the number of key relationships a company has to its success/failure. We can see that companies with fewer relationships are more likely to fail as compared to companies with more relationships.
+From the below Sankey diagram, we can visualize the number of key relationships a company had and correlate it to its success/failure. We can see that companies with fewer relationships are more likely to fail as compared to companies with more relationships.
 
 ![sankey1](https://user-images.githubusercontent.com/29097566/48718347-342be780-ebe9-11e8-97c6-4f829c6b6a05.JPG)
 
