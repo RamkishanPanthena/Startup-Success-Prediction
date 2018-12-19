@@ -57,9 +57,9 @@ var yScale = d3.scaleLinear()
     .domain([0,1])
     .range([h-h/10, 0]);
 
-d3.select("#chart1")
-	.selectAll("*")
-	.remove();
+//d3.select("#chart1")
+//	.selectAll("*")
+//	.remove();
    
 var svg = d3.select("#chart1")
     .append("svg")
@@ -150,11 +150,19 @@ function visualize(){
 	var n_estimators = document.getElementById("estimators").value;
 	
 	if (learning_rate==="") {
-	learning_rate = .0001;
+	learning_rate = .1;
   }
   
   if (n_estimators==="") {
-	n_estimators = 10;
+	n_estimators = 100;
+  }
+
+  if (max_depth==="") {
+	max_depth = 5;
+  }
+  
+  if (max_leaf_nodes==="") {
+	max_depth = 10;
   }
   
   url1 = url.concat("m=").concat(modelname).concat("/d=").concat(max_depth).concat("/l=").concat(max_leaf_nodes).concat("/n=").concat(n_estimators).concat("/c=").concat(learning_rate);
