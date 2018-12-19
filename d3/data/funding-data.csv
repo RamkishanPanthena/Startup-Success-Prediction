@@ -1,0 +1,671 @@
+id,acquiring_company_name,acquiring_object_id,acquired_company_name,acquired_object_id,price_amount,funding_total_usd,status
+1,Facebook,c:5,FriendFeed,c:1001,47500000,5000000,acquired
+5,,,"ITOG, Inc.",c:10153,0,205000,closed
+6,AOL,c:351,StudioNow,c:10158,36500000,15286415,acquired
+7,Microsoft,c:1242,Yammer,c:10176,1200000000,142000000,acquired
+9,Cisco,c:28,PostPath,c:10197,215000000,24300000,acquired
+13,,,PlayerDuel,c:103204,0,21189,closed
+15,,,Picateers,c:10398,0,12100000,closed
+19,AOL,c:351,Surphace,c:105,25000000,3500000,acquired
+20,Iron Mountain,c:21154,Mimosa Systems,c:10512,112000000,53816776,acquired
+22,Vocus,c:4687,iContact,c:106,169000000,53350000,acquired
+23,,,Geodelic Systems,c:10610,0,10500000,closed
+25,Shanda Games,c:34079,Mochi Media,c:1069,80000000,14000000,acquired
+27,,,Pixelpipe,c:10751,0,2300000,closed
+29,Monsanto,c:29610,The Climate Corporation,c:1078,930000000,108900000,acquired
+30,GSI Commerce,c:28712,FetchBack,c:10864,40000000,1000000,acquired
+31,Yahoo!,c:29,Tumblr,c:1088,1100000000,125250000,acquired
+33,,,ConSentry Networks,c:10913,0,46400000,closed
+34,TIBCO Software,c:4967,LogLogic,c:10915,130000000,8800000,acquired
+35,,,Semantra,c:10969,0,9100000,closed
+39,,,Buzzwire,c:1120,0,12000000,closed
+42,,,B-Side Entertainment,c:11397,0,7350000,closed
+45,,,Predictify,c:1148,0,4300000,closed
+46,,,WeAre.Us,c:11498,0,50000,closed
+50,,,MyShape,c:11817,0,28000000,closed
+51,NETGEAR,c:16675,Avaak,c:11888,31000000,17000000,acquired
+52,,,Songbird,c:1205,0,11015719,closed
+53,Amazon,c:317,Kiva Systems,c:12052,775000000,11600000,acquired
+55,,,SolFocus,c:12099,0,211403000,closed
+56,,,GridNetworks,c:1212,0,30000000,closed
+57,AOL,c:351,Quigo,c:1214,363000000,35000000,acquired
+58,IBM,c:3246,Guardium,c:12171,225000000,11800000,acquired
+60,Salesforce,c:1972,ExactTarget,c:12178,2500000000,238209999,acquired
+61,,,Vontoo,c:12179,0,2192000,closed
+62,,,DubMeNow,c:12224,0,7516703,closed
+64,DG,c:13228,Peer39,c:1224,15500000,29915001,acquired
+65,McAfee,c:14236,MX Logic,c:12285,140000000,4000000,acquired
+66,Oracle Corporation,c:2680,Vitrue,c:1234,300000000,33000000,acquired
+67,Google,c:59,"Wildfire, a division of Google",c:12348,350000000,14100000,acquired
+70,,,Faves,c:1253,0,1500000,closed
+71,,,Goodmail Systems,c:12630,0,45000000,closed
+73,IBM,c:3246,Trusteer,c:12723,800000000,10100000,acquired
+74,Microsoft,c:1242,Farecast,c:128,115000000,20600000,acquired
+75,Reply! Inc.,c:1316,MerchantCircle,c:1283,60000000,14300000,acquired
+76,,,Minekey,c:1284,0,3600000,closed
+77,Taylor Nelson Sofres,c:3063,Compete,c:1285,150000000,33000000,acquired
+80,,,Newmerix,c:13006,0,7000000,closed
+82,Google,c:59,DocVerse,c:13046,25000000,1300000,acquired
+83,Green Dot Corporation,c:35247,Loopt,c:1309,43000000,32006000,acquired
+85,,,CV Ingenuity,c:131583,0,30926154,closed
+86,Monster,c:1735,Trovix,c:13168,72500000,18250000,acquired
+88,,,GetBack,c:13277,0,1700000,closed
+89,,,Q-magic,c:13358,0,650000,closed
+91,,,GlobalCrypto,c:13410,0,1000000,closed
+93,LiveUniverse,c:2358,Pageflakes,c:135,3000000,4100000,acquired
+95,,,Planet Metrics,c:13504,0,2300000,closed
+97,,,Azelon Pharmaceuticals,c:137274,0,6922000,closed
+99,,,PublicEarth,c:13733,0,4000000,closed
+103,FTI Consulting,c:26482,Attenex,c:13874,88000000,5000000,acquired
+105,AOL,c:351,The Huffington Post,c:1388,315000000,37000000,acquired
+106,,,NebuAd,c:1389,0,30150000,closed
+107,,,Swivel,c:139,0,2000000,closed
+108,,,Amadesa,c:13921,0,12800000,closed
+109,,,MobileReactor,c:139729,0,1175000,closed
+111,,,AutoVirt,c:14028,0,24300000,closed
+112,Tellabs,c:34407,WiChorus,c:14036,165000000,42500000,acquired
+114,AOL,c:351,Bebo,c:142,850000000,15000000,acquired
+114,Reachd,c:5602,Bebo,c:142,10000000,15000000,acquired
+115,,,Peek & Co,c:14345,0,626096,closed
+117,,,xkoto,c:1445,0,11035000,closed
+118,,,Press,c:144611,0,70000,closed
+119,,,VeteranCentral.com,c:144631,0,150000,closed
+120,,,DateMyFamily.com,c:144687,0,100000,closed
+121,Equifax,c:2823,TrustedID,c:1447,30000000,25000000,acquired
+122,,,CakeStyle,c:144825,0,1000000,closed
+123,,,Hit Systems,c:14483,0,125000,closed
+125,FIS,c:68232,mFoundry,c:14608,120000000,40300000,acquired
+127,,,AdexLink,c:146596,0,2000000,closed
+128,,,REMOTV,c:14666,0,2700000,closed
+132,,,Classiphix,c:148284,0,15000,closed
+133,Symantec,c:3320,Vontu,c:14854,350000000,20000000,acquired
+134,,,"MoveableCode, Inc.",c:148566,0,350000,closed
+141,WhitePages.com,c:2345,Snapvine,c:1499,10000000,12000000,acquired
+142,,,Exit41,c:14993,0,24200000,closed
+145,,,StyleZen,c:150577,0,20000,closed
+148,blinkx,c:108,Rhythm NewMedia,c:15123,65000000,28932322,acquired
+149,,,Zentact,c:15129,0,250000,closed
+150,,,Utterz,c:1518,0,4000000,closed
+151,,,Wantful,c:152560,0,5500000,closed
+152,KEYW Corporation,c:40595,SenSage,c:15294,24000000,37079000,acquired
+153,,,Gaston Labs,c:153403,0,100000,closed
+154,Yahoo!,c:29,Dapper,c:1541,55000000,3000000,acquired
+155,,,eBillme,c:15458,0,23000000,closed
+157,Google,c:59,FeedBurner,c:155,100000000,8000000,acquired
+158,,,Rudder,c:15509,0,2000000,closed
+160,,,Friendsignia,c:155621,0,15000,closed
+161,,,Nalace Corporation,c:155821,0,19000,closed
+162,,,mBeat Media,c:15599,0,1500000,closed
+165,,,SeeSaw Networks,c:15687,0,21138876,closed
+167,,,Twitpay,c:15704,0,500000,closed
+168,,,Robotgalaxy,c:15709,0,12000000,closed
+169,,,Soshowise,c:157234,0,50000,closed
+172,Western Digital,c:22518,Virident Systems,c:15829,685000000,129677153,acquired
+173,,,Newfield Design,c:158294,0,662000,closed
+175,"Verizon Communications, Inc.",c:4843,EdgeCast Networks,c:1587,350000000,74000000,acquired
+176,,,Avega Systems,c:15870,0,9500000,closed
+177,,,Hammerhead Systems,c:15887,0,48000000,closed
+178,,,Neopolitan Networks,c:15888,0,3170000,closed
+179,Incredimail,c:13906,Smilebox,c:1590,40000000,14000000,acquired
+180,eBay,c:20,Bill Me Later,c:1595,945000000,100000000,acquired
+181,ViaSat,c:33731,WildBlue,c:15996,568000000,50000000,acquired
+182,Walmart,c:29025,Kosmix,c:1600,300000000,55000000,acquired
+184,,,VoloMedia,c:16066,0,12000000,closed
+185,Twitter,c:12,Summize,c:1607,15000000,750000,acquired
+187,,,Applied Identity,c:16111,0,33000000,closed
+188,Amazon,c:317,Goodreads,c:1612,150000000,2750000,acquired
+189,British Telecom,c:4196,Ribbit,c:1613,105000000,11000000,acquired
+190,,,Kickfire,c:16134,0,20000000,closed
+192,Hewlett-Packard,c:355,ArcSight,c:16178,1500000000,26914000,acquired
+193,,,AdYouNet,c:16179,0,1400000,closed
+194,LSI,c:5722,ONStor,c:16181,25000000,65800000,acquired
+195,Broadcom,c:17124,Provigent,c:16189,313000000,32000000,acquired
+198,,,Contur,c:162219,0,20000,closed
+199,,,Aquest Systems,c:16264,0,20000000,closed
+200,,,WeShow,c:1627,0,5000000,closed
+201,Spirent Communications,c:65077,Mu Dynamics,c:16271,40000000,24000000,acquired
+203,Intel,c:71,Sensory Networks,c:16276,20000000,17400000,acquired
+204,Skype,c:62,Qik,c:1628,150000000,14800000,acquired
+212,,,RipCode,c:1637,0,33000000,closed
+214,,,"RiverGlass, Inc.",c:16406,0,6400000,closed
+216,,,Digital Performance,c:16488,0,4476171,closed
+217,,,Turf Geography Club,c:164922,0,890000,closed
+222,,,Rapport,c:16607,0,25500000,closed
+224,Tessera,c:9514,Siimpel Corporation,c:16613,15000000,53818873,acquired
+225,Vonage,c:7618,Vocalocity,c:16618,130000000,13600000,acquired
+226,,,27 Perry,c:166763,0,118000,closed
+228,Zynga,c:1812,Challenge Games,c:1669,20500000,14500000,acquired
+229,,,Sway,c:167,0,2000000,closed
+230,,,Focus,c:16709,0,12170000,closed
+232,SurveyMonkey,c:21875,Infinity Box,c:1674,35000000,118000,acquired
+233,,,Stiki Digital,c:16753,0,325000,closed
+234,,,Extreme Enterprises,c:16757,0,1455000,closed
+235,,,scanR,c:16761,0,14200000,closed
+236,,,QSecure,c:16770,0,49000000,closed
+237,,,spotdock,c:167795,0,600000,closed
+239,Broadcom,c:17124,BroadLight,c:16874,230000000,27000000,acquired
+242,,,SimulScribe,c:1692,0,5700000,closed
+245,,,IonLogix Systems,c:16973,0,30000,closed
+247,,,SendMeHome.com,c:17030,0,50000,closed
+254,,,D2C Games,c:17252,0,7500000,closed
+257,SMSC,c:34751,Symwave,c:17282,8300000,26200000,acquired
+258,Google,c:59,Meebo,c:173,100000000,70000000,acquired
+259,Cisco,c:28,Meraki,c:1731,1200000000,80000000,acquired
+260,,,Relationship Analytics,c:173118,0,125000,closed
+262,,,Speedshape,c:17429,0,5000000,closed
+265,,,Power Analog Microelectronics,c:17481,0,12000000,closed
+266,,,Shocking Technologies,c:17501,0,55900000,closed
+268,,,Appscio,c:17512,0,7000000,closed
+269,,,bluepulse,c:1753,0,6000000,closed
+272,IBM,c:3246,Storwize,c:17581,140000000,28000000,acquired
+274,,,Aurora Feint,c:17610,0,7660000,closed
+277,SGI,c:12011,Copan Systems,c:17633,2000000,68400000,acquired
+278,Imation,c:70298,Nexsan,c:17634,120000000,24500000,acquired
+279,Synaptics,c:17655,Validity Sensors,c:17656,255000000,82600000,acquired
+280,,,ARPU,c:1766,0,15564591,closed
+281,Qualcomm,c:323,Firethorn,c:17660,210000000,25131611,acquired
+287,,,OpVista,c:17775,0,43000000,closed
+288,Riverbed Technology,c:17731,Mazu Networks,c:17795,47000000,7000000,acquired
+290,,,Hidden City Games,c:17857,0,15000000,closed
+292,LivePerson,c:7416,NuConomy,c:1789,3000000,3300000,acquired
+295,EMC,c:966,ScaleIO,c:179507,200000000,12000000,acquired
+296,,,Conformity,c:17974,0,3000000,closed
+298,,,CypherMax,c:18027,0,148000000,closed
+301,,,Etology,c:18080,0,4000000,closed
+303,BroadSoft,c:3407,Casabi,c:18163,1950000,12800000,acquired
+304,Google,c:59,Invite Media,c:1832,80000000,5000000,acquired
+305,MySpace,c:494,iLike,c:184,20000000,16500000,acquired
+308,SingTel,c:16041,Amobee,c:1870,321000000,72000000,acquired
+312,,,Punch Entertainment,c:18897,0,1200000,closed
+313,,,Current Media,c:1895,0,15000000,closed
+315,,,MOLI,c:1899,0,55600000,closed
+317,,,Pocket Communications Northeast,c:19101,0,125000000,closed
+320,SanDisk,c:3275,Pliant Technology,c:19234,327000000,50300006,acquired
+324,,,walkby,c:195311,0,650000,closed
+325,,,Kashless,c:19538,0,9000000,closed
+326,,,Sharetivity,c:1957,0,2000000,closed
+329,IXIA,c:26797,BreakingPoint Systems,c:1967,160000000,20000000,acquired
+334,,,Pacinian,c:19869,0,350000,closed
+336,,,PayParade Pictures,c:20033,0,200000,closed
+340,,,Hotelicopter,c:202,0,5000000,closed
+341,TeleCommunication Systems,c:26802,Networks in Motion,c:20253,170000000,10000000,acquired
+345,Medtronic,c:33654,Ardian,c:20506,800000000,64080000,acquired
+347,DG,c:13228,Republic Project,c:20672,1400000,1000000,acquired
+349,,,LookStat,c:20832,0,500000,closed
+350,CA Technologies,c:26050,Nimsoft,c:20847,350000000,22300000,acquired
+354,,,Jobzle,c:21359,0,30000,closed
+356,,,Airship Ventures,c:21492,0,10500000,closed
+361,Brightcove,c:325,Zencoder,c:21762,30000000,2000000,acquired
+362,,,What They Like,c:2178,0,990000,closed
+363,Sanofi Aventis,c:28373,BiPar Sciences,c:21940,500000000,73000000,acquired
+366,LBI International,c:4010,Mr. Youth,c:22057,50000000,15100000,acquired
+367,,,Factery,c:22113,0,1200000,closed
+369,eBay,c:20,Milo,c:22203,75000000,4950000,acquired
+370,Cisco,c:28,Metreos Corporation,c:22291,28000000,4355000,acquired
+372,,,Fetch MD,c:223501,0,25000,closed
+373,,,Advaliant,c:2245,0,100000,closed
+375,,,Smalltown,c:2272,0,4000000,closed
+376,SuccessFactors,c:1790,CubeTree,c:22721,50000000,11500000,acquired
+378,eBay,c:20,Where,c:2275,135000000,19100000,acquired
+380,,,Matisse Networks,c:22898,0,7500000,closed
+382,Nordstrom,c:29929,HauteLook,c:23052,270000000,41000000,acquired
+384,Synchronoss Technologies,c:28415,Miyowa,c:23098,59000000,11725600,acquired
+386,The Walt Disney Company,c:342,Playdom,c:23125,763200000,76000000,acquired
+390,,,Canopy Financial,c:23192,0,89500000,closed
+391,,,Elanti Systems,c:23234,0,5500000,closed
+392,,,Wi-Chi,c:23251,0,7000000,closed
+393,,,Social Collective,c:23335,0,20000,closed
+398,Apple,c:1654,Topsy Labs,c:23588,200000000,35200000,acquired
+399,,,Ecast,c:23692,0,30300000,closed
+401,,,ZettaCore,c:23788,0,21000000,closed
+403,Emcore,c:72249,Soliant Energy,c:23903,450000,18000000,acquired
+406,,,DynaPump,c:24040,0,6000000,closed
+407,,,Apieron,c:24206,0,43500000,closed
+409,,,Anaphore,c:24281,0,24300000,closed
+411,Oversee,c:1809,SnapNames,c:2434,35000000,8800000,acquired
+413,,,Biofisica,c:24570,0,7300000,closed
+414,Tremor Video,c:104377,ScanScout,c:246,86000000,17500000,acquired
+415,,,Limerick BioPharma,c:24681,0,49008830,closed
+416,Eli Lilly,c:31588,Avid Radiopharmaceuticals,c:24727,800000000,69900000,acquired
+417,,,JackPot Rewards,c:2478,0,16700000,closed
+418,,,GenieTown,c:2481,0,2000000,closed
+419,SingTel,c:16041,Pixable,c:24853,26500000,6100000,acquired
+421,Teleflex,c:65984,Semprus BioSciences,c:24896,30000000,27000000,acquired
+423,,,FameCast,c:2497,0,9700000,closed
+425,Johnson & Johnson,c:12137,Aragon Pharmaceuticals,c:25001,1000000000,122000000,acquired
+431,Alexion Pharmaceuticals,c:67598,Taligen Therapeutics,c:25324,111000000,78750000,acquired
+434,,,Biolex Therapeutics,c:25383,0,162264126,closed
+435,,,PhotoThera,c:25449,0,80500000,closed
+439,,,Azingo,c:25688,0,80000000,closed
+441,AstraZeneca,c:13450,Pearl Therapeutics,c:25737,1150000000,232000100,acquired
+443,,,Broadway Networks,c:25756,0,954000,closed
+444,CA Technologies,c:26050,Layer 7 Technologies,c:25782,155000000,19900000,acquired
+445,,,TwtBks,c:25808,0,25000,closed
+447,Shutterfly,c:1438,Tiny Pictures,c:2593,2600000,11200000,acquired
+448,,,Kurani Interactive,c:25997,0,275000,closed
+455,,,Bling Nation,c:26368,0,28000000,closed
+456,,,Revetto,c:26390,0,20000,closed
+457,dunnhumby,c:39178,BzzAgent,c:26460,60000000,14500000,acquired
+458,EMC,c:966,Kazeon,c:2647,150000000,41000000,acquired
+459,Broadcom,c:17124,Beceem Communications,c:26556,316000000,69600000,acquired
+460,,,Nordic Windpower,c:26612,0,54000000,closed
+462,LSI,c:5722,SandForce,c:26685,400000000,46000000,acquired
+463,Bakbone Software,c:26703,Asempra Technologies,c:26702,1850000,20000000,acquired
+465,Bakbone Software,c:26703,ColdSpark,c:26806,15900000,6500000,acquired
+466,,,Nethra Imaging,c:26813,0,14000000,closed
+467,,,Advanced Marketing & Media Group,c:26863,0,500000,closed
+469,Comcast,c:4175,Plaxo,c:27,150000000,28300000,acquired
+473,Abbott Labs,c:10475,OptiMedica,c:27142,400000000,51000000,acquired
+474,,,Advanced Power Projects,c:27159,0,13000000,closed
+475,Lightera,c:26738,Luminus Devices,c:27163,22000000,135826373,acquired
+476,Mellanox Technologies,c:62791,KOTURA,c:27285,82000000,27690547,acquired
+477,Yahoo!,c:29,Right Media,c:2731,850000000,45000000,acquired
+480,,,Plato Networks,c:27439,0,27500000,closed
+485,,,Texert,c:27740,0,3000000,closed
+486,,,eMinor,c:27741,0,5000000,closed
+487,Dialog Semiconductor,c:33565,iWatt,c:27779,345000000,19400000,acquired
+488,,,DeliveryEdge,c:278,0,1500000,closed
+489,,,Correlix,c:27938,0,11400000,closed
+492,,,Yub,c:280611,0,12000000,closed
+494,,,PeerMe,c:281,0,5000000,closed
+495,,,VT Silicon,c:28114,0,8800000,closed
+496,,,lifeIO,c:28162,0,500000,closed
+498,,,Rayspan,c:28307,0,12500000,closed
+500,,,HighlightCam,c:28403,0,3000000,closed
+501,VMware,c:5990,Blue Lane Technologies,c:28420,15000000,13400000,acquired
+502,,,Danotek Motion Technologies,c:28424,0,42700000,closed
+506,CommScope,c:12394,Redwood Systems,c:28482,60000000,34250000,acquired
+506,CommScope,c:12394,Redwood Systems,c:28482,60000000,34250000,acquired
+507,CommScope,c:12394,Redwood Systems,c:28482,60000000,34250000,acquired
+507,CommScope,c:12394,Redwood Systems,c:28482,60000000,34250000,acquired
+511,McAfee,c:14236,Lockdown Networks,c:28768,2000000,8600000,acquired
+512,Ancestry,c:1071,Footnote,c:2889,28000000,10000000,acquired
+513,Verint Systems,c:27810,Vovici,c:2902,56500000,16300000,acquired
+519,Kofax,c:29411,Kapow Software,c:2953,47500000,19743770,acquired
+521,,,Zoodak,c:29604,0,580000,closed
+522,,,Three Screen Games,c:29605,0,500000,closed
+523,Yahoo!,c:29,Rockmelt,c:29618,65000000,39875000,acquired
+526,,,ScribeStorm,c:2993,0,225000,closed
+527,Microsoft,c:1242,Powerset,c:30,100000000,22500000,acquired
+528,,,Ubidyne,c:30041,0,58500000,closed
+529,International Rectifier,c:70064,CHiL Semiconductor,c:30152,75000000,22487000,acquired
+530,,,UpMo,c:30173,0,3700000,closed
+531,,,SearchMe,c:3027,0,43600000,closed
+532,,,Resonant Vibes,c:30290,0,350000,closed
+533,,,Smith & Tinker,c:30307,0,29000000,closed
+536,Cisco,c:28,Pure Networks,c:30526,120000000,12500000,acquired
+537,Ceradyne,c:30528,SemEquip,c:30527,125000000,26000000,acquired
+538,Nuance Communications,c:5473,SNAPin Software,c:30537,204260000,22300000,acquired
+539,,,Solvate,c:30562,0,10300000,closed
+540,,,Impeva,c:30667,0,10000000,closed
+542,HSW International,c:14745,DailyStrength,c:3080,3125000,5000000,acquired
+548,,,Glacier Bay,c:31120,0,28000000,closed
+549,,,Queplix,c:31141,0,1500000,closed
+551,,,Bueda,c:31294,0,125000,closed
+554,,,Natural Cleaners Colorado,c:31452,0,1900000,closed
+555,,,Roxro Pharma,c:31488,0,42700000,closed
+556,,,AccelGolf,c:31514,0,457282,closed
+557,,,Satiety,c:31546,0,62800000,closed
+558,,,Paracor Medical,c:31549,0,44000000,closed
+559,Thermage,c:148832,Reliant Technologies,c:31559,66200000,15000000,acquired
+560,Ipsen,c:31615,Tercica,c:31614,480300000,83000000,acquired
+561,Allergan,c:41450,MAP Pharmaceuticals,c:31754,958000000,50000000,acquired
+562,,,Oorja Protonics,c:31764,0,21470000,closed
+563,,,Elastra,c:3178,0,14600000,closed
+565,Local.com,c:25597,Krillion,c:3180,3500000,9150000,acquired
+566,Amgen,c:23339,Avidia,c:31832,380000000,72300000,acquired
+567,,,kwiry,c:3185,0,1000000,closed
+569,Thermo Fisher Scientific,c:31663,Ahura Scientific,c:31866,145000000,17000000,acquired
+571,VMware,c:5990,Digital Fuel,c:31888,85000000,5000000,acquired
+572,,,Dyyno,c:31909,0,14078664,closed
+575,,,Origen Therapeutics,c:31968,0,2000000,closed
+578,,,Authenticlick,c:3202,0,5000000,closed
+579,Asterand,c:40135,BioSeek,c:32023,14000000,10000000,acquired
+582,,,Idooble,c:32144,0,400000,closed
+585,Google,c:59,Waze,c:32475,1100000000,67000000,acquired
+586,,,Tapioca Mobile,c:3267,0,5000000,closed
+587,,,YESTODATE.COM,c:32686,0,1000000,closed
+588,,,WebVisible,c:3288,0,37000000,closed
+589,,,HX Diagnostics,c:32977,0,7800000,closed
+591,,,TalkPlus,c:334,0,5500000,closed
+592,Twitter,c:12,Bluefin Labs,c:33416,80000000,20350000,acquired
+593,Walmart,c:29025,Vudu,c:335,100000000,36000000,acquired
+595,,,RFinity,c:33519,0,4000000,closed
+596,,,Attune Systems,c:33771,0,18000000,closed
+599,,,Transactiv,c:33912,0,1200000,closed
+600,Salesforce,c:1972,Desk,c:33949,50000000,5700000,acquired
+602,,,LikeList,c:34028,0,5000000,closed
+603,Salesforce,c:1972,Dimdim,c:3413,31000000,8400000,acquired
+605,,,Chronicity,c:34267,0,19550000,closed
+606,,,Zipano,c:34338,0,25000,closed
+607,,,PermissionTV,c:344,0,9000000,closed
+608,,,Innovative Silicon,c:34401,0,72000000,closed
+610,,,Hotlist,c:34522,0,1449998,closed
+611,Brand Networks,c:153484,Optimal,c:34545,35000000,7600000,acquired
+612,Facebook,c:5,Hot Potato,c:34549,10000000,1420000,acquired
+613,Cisco,c:28,ScanSafe,c:34618,183000000,28500000,acquired
+615,888 Holdings,c:24216,Mytopia,c:3487,18000000,3500000,acquired
+616,,,Workstreamer,c:3505,0,3500000,closed
+617,,,Devtap,c:35148,0,2600000,closed
+618,,,Viacor,c:35157,0,19009671,closed
+620,,,RPO,c:35402,0,44000000,closed
+621,,,Trinity Biosystems,c:35433,0,28500000,closed
+622,,,Teranode,c:35475,0,10400000,closed
+623,Logitech,c:2989,"LifeSize, a Division of Logitech",c:35511,405000000,42500000,acquired
+625,,,Etelos,c:3562,0,4087500,closed
+628,Broadcom,c:17124,Teknovus,c:35887,123000000,62600000,acquired
+629,,,JavaJobs,c:35903,0,50000,closed
+630,Symantec,c:3320,Clearwell Systems,c:3610,410000000,29000000,acquired
+632,,,Storspeed,c:36192,0,13000000,closed
+633,,,NewsBasis,c:36276,0,545000,closed
+636,,,Nirvanix,c:365,0,70000000,closed
+637,,,SemiSouth Laboratories,c:36579,0,39000000,closed
+638,,,Conecta 2,c:367,0,15000,closed
+639,,,ThermalTherapeuticSystems,c:36742,0,3508462,closed
+640,Real Networks,c:845,Game Trust,c:3686,20000000,9000000,acquired
+641,,,Blade Games World,c:36868,0,5926462,closed
+642,,,Apnex Medical,c:36892,0,44000000,closed
+644,Global Crossing,c:10241,Genesis Networks,c:36936,27000000,22165091,acquired
+645,,,itzbig,c:3717,0,4000000,closed
+646,,,Five Star Technologies,c:37173,0,13222860,closed
+647,HTC Corp,c:3132,Dashwire,c:37215,18500000,5056559,acquired
+651,Braintree,c:46943,Venmo,c:37635,26200000,1200000,acquired
+652,,,NextIO,c:37647,0,49600000,closed
+653,Yahoo!,c:29,Xoopit,c:3770,20000000,6500000,acquired
+654,PLX Technology,c:58544,Teranetics,c:37712,53800000,52800000,acquired
+655,,,Zeo,c:37752,0,26138500,closed
+657,,,LegiTime Technologies,c:37780,0,4000000,closed
+660,NetApp,c:1727,Akorri Networks,c:37929,60000000,48730000,acquired
+661,,,Kardia Health Systems,c:37934,0,18400000,closed
+663,,,Thwapr,c:38019,0,2000000,closed
+668,,,Digit Wireless,c:38273,0,10000000,closed
+670,AOL,c:351,about.me,c:38337,35000000,5675000,acquired
+671,Experian,c:2175,41st Parameter,c:38338,324000000,38064570,acquired
+673,,,EvoApp,c:38460,0,3352194,closed
+674,,,iosil Energy,c:38504,0,13875001,closed
+675,,,iGroup Network,c:38590,0,2240000,closed
+676,,,Make It Work,c:38655,0,1000000,closed
+678,,,Hello Chair,c:38794,0,889999,closed
+679,,,Jodange,c:3902,0,1200000,closed
+680,Sony,c:304,Gaikai,c:39101,380000000,45039999,acquired
+681,,,iKoa,c:39105,0,18700000,closed
+683,Dot Hill Systems,c:39285,Cloverleaf Communications,c:39283,12000000,11000000,acquired
+684,Eisai,c:39681,AkaRx,c:39364,255000000,26100000,acquired
+685,,,Sweepery,c:39399,0,500000,closed
+686,eBay,c:20,Zong,c:3949,240000000,27500000,acquired
+687,Akamai Technologies,c:424,Cotendo,c:3950,268000000,36000000,acquired
+688,,,Zymetis,c:39507,0,2257464,closed
+689,VMware,c:5990,Nicira Networks,c:39521,1260000000,41815432,acquired
+691,,,Helix Therapeutics,c:39596,0,3100000,closed
+692,Symantec,c:3320,GuardianEdge Technologies,c:3962,70000000,19500000,acquired
+693,,,Spectrawatt,c:39661,0,41400000,closed
+694,,,MPOWER Mobile,c:39755,0,5000000,closed
+695,,,Storm Exchange,c:39801,0,10800000,closed
+698,Cisco,c:28,Pure Digital Technologies,c:3991,590000000,68200000,acquired
+699,betaworks,c:20953,Digg,c:4,500000,45000000,acquired
+701,Silicon Image,c:15297,SiBEAM,c:4014,25500000,113750000,acquired
+702,,,C2 Microsystems,c:40147,0,10000000,closed
+703,,,EmSense,c:40152,0,13000000,closed
+704,,,DNP Green Technology,c:40197,0,12000000,closed
+706,Sunovion Pharmaceuticals,c:85949,Elevation Pharmaceuticals,c:40417,430000000,89400001,acquired
+708,,,Media Chaperone,c:40665,0,1050000,closed
+709,Sourcefire,c:19066,Immunet Corporation,c:40762,21000000,2000000,acquired
+717,,,MogoTix,c:41334,0,115000,closed
+718,,,Taggstr,c:41409,0,50000,closed
+722,,,Reef Point Systems,c:41747,0,52000000,closed
+724,,,Verari Systems,c:41968,0,20000000,closed
+725,,,Andigilog,c:42062,0,18000000,closed
+727,,,Moonshoot,c:42112,0,6760000,closed
+729,,,Certeon,c:42163,0,19000000,closed
+731,Outerwall,c:64747,ecoATM,c:42223,350000000,71400000,acquired
+732,,,WiLinx,c:42227,0,15000000,closed
+733,,,Berggi,c:42441,0,12000000,closed
+734,,,PeerPong,c:42496,0,2800000,closed
+737,,,Internet Pawn,c:42519,0,7228704,closed
+738,,,Qlusters,c:42610,0,10360000,closed
+739,McAfee,c:14236,Solidcore Systems,c:42668,47000000,40000000,acquired
+740,,,Octavian,c:42672,0,15000000,closed
+741,,,Zilker Labs,c:42842,0,27000000,closed
+743,,,U.S. Fiduciary,c:43133,0,9000000,closed
+745,,,QuikCycle,c:43162,0,17800000,closed
+747,Zillow,c:959,RentJuice,c:43183,40000000,6693782,acquired
+749,Facebook,c:5,Instagram,c:43233,1010470000,57500000,acquired
+752,comScore,c:1926,AdXpose,c:4336,22000000,22800000,acquired
+753,,,MyNines,c:43386,0,500000,closed
+754,,,Stickybits,c:43416,0,1900000,closed
+755,,,Levanta,c:43458,0,8000000,closed
+756,,,Mail.com Media Corporation,c:43480,0,35000000,closed
+759,,,Axial Biotech,c:43724,0,19400000,closed
+760,,,Nascentric,c:43741,0,13400000,closed
+762,TIBCO Software,c:4967,Loyalty Lab,c:43832,23000000,11000000,acquired
+764,,,Kolorific,c:43873,0,7000000,closed
+765,,,Defywire,c:43875,0,10600000,closed
+766,,,Jacent Technologies,c:43877,0,13700000,closed
+767,,,Bioenvision,c:43915,0,7410000,closed
+769,,,Transparency Software,c:43948,0,12050000,closed
+771,Marchex,c:674,Jingle Networks,c:44,62500000,88651133,acquired
+772,,,Oasys Mobile,c:44064,0,8000000,closed
+775,,,Food Quality Sensor International,c:44305,0,5600000,closed
+776,,,Sampa,c:444,0,1310000,closed
+778,Intuit,c:2537,Demandforce,c:44504,423500000,10119801,acquired
+778,Intuit,c:2537,Demandforce,c:44504,423500000,10119801,acquired
+779,Intuit,c:2537,Demandforce,c:44504,423500000,10119801,acquired
+779,Intuit,c:2537,Demandforce,c:44504,423500000,10119801,acquired
+782,,,Yamisee,c:44616,0,700000,closed
+783,Akamai Technologies,c:424,Netli,c:44650,170000000,18000000,acquired
+784,GlobalSCAPE,c:6478,TappIn,c:44693,17000000,2293122,acquired
+786,,,Entertainment Media Works,c:45111,0,4000000,closed
+787,,,Athena Design Systems,c:45112,0,4000000,closed
+788,,,Skyway Software,c:45114,0,4000000,closed
+789,,,U4EA Wireless,c:45115,0,19300000,closed
+792,,,Azaire Networks,c:45339,0,21000000,closed
+793,,,Amitive,c:45396,0,16000000,closed
+794,,,DanceJam,c:454,0,4500000,closed
+795,,,Trooval,c:45413,0,2387481,closed
+797,Cisco,c:28,Composite Software,c:45428,180000000,14650003,acquired
+800,VMware,c:5990,Integrien,c:45696,100000000,24510540,acquired
+802,,,Avolent,c:45709,0,9000000,closed
+803,,,Intrusic,c:45792,0,16000000,closed
+804,,,EventVue,c:458,0,455000,closed
+806,,,NextMedium,c:46042,0,9500000,closed
+807,,,Pyxis Mobile,c:46070,0,24150000,closed
+808,,,Xytis,c:46073,0,24500000,closed
+810,Shire,c:53654,SARcode Bioscience,c:46168,160000000,73000000,acquired
+811,,,Mendocino Software,c:46186,0,19700000,closed
+812,Google,c:59,Aardvark,c:4622,50000000,6000000,acquired
+813,,,CebaTech,c:46259,0,8500000,closed
+816,LinkedIn,c:176,Rapportive,c:46586,15000000,1000000,acquired
+817,ADOR,c:53254,Off & Away,c:46835,5000000,3250000,acquired
+818,,,MyCabbage,c:46863,0,950000,closed
+819,,,FireStar Software,c:46889,0,980000,closed
+820,,,HeadCase Humanufacturing,c:46893,0,900000,closed
+822,PayPal,c:333,Braintree,c:46943,800000000,69000000,acquired
+824,Glam Media,c:149,Ning by Glam Media,c:47,150000000,119000000,acquired
+825,,,Giiv,c:47115,0,3350000,closed
+826,,,Offermatic,c:47270,0,4500000,closed
+827,,,Tipping Bucket,c:47341,0,72000,closed
+828,,,International Battery,c:47440,0,35000000,closed
+829,,,Infineta Systems,c:47587,0,30000000,closed
+831,,,SpinTheCam,c:47662,0,150000,closed
+832,,,Atrica,c:47689,0,22200000,closed
+833,Cisco,c:28,Navini Networks,c:47848,330000000,30920000,acquired
+834,Cox Enterprises,c:4797,Adify,c:4794,300000000,27000000,acquired
+835,,,People to Remember,c:47950,0,25000,closed
+836,,,Center'd,c:4829,0,10400000,closed
+837,,,NeuroTherapeutics Pharma,c:48376,0,55000000,closed
+838,,,Auvitek International,c:48640,0,9000000,closed
+839,Yahoo!,c:29,BlueLithium,c:487,300000000,11500000,acquired
+841,Amazon,c:317,Quidsi,c:49052,545000000,78500000,acquired
+842,,,Loudcaster,c:49236,0,53000,closed
+843,,,Cerona Networks,c:49341,0,2600000,closed
+844,Getty Images,c:629,WireImage,c:49442,202000000,15000000,acquired
+846,,,Helicomm,c:49621,0,1000000,closed
+855,Bio-Rad Laboratories,c:40611,QuantaLife,c:50208,162000000,20757182,acquired
+856,Cadence Pharmaceuticals,c:37734,Incline Therapeutics,c:50209,285000000,64940000,acquired
+857,,,Skyrider,c:5043,0,17000000,closed
+858,,,Opzi,c:50449,0,1015000,closed
+859,Constant Contact,c:3524,SinglePlatform,c:50727,100000000,4575000,acquired
+860,,,Zango,c:509,0,40000000,closed
+861,,,Network Chemistry,c:50927,0,6000000,closed
+862,,,Wirama,c:5095,0,1000000,closed
+864,,,Abound Solar,c:51023,0,510000000,closed
+869,GREE,c:15609,OpenFeint,c:51306,104000000,3000000,acquired
+872,,,DotBlu,c:516,0,2250000,closed
+873,,,Lama Lab,c:51623,0,1213066,closed
+874,,,Wellcore,c:51745,0,2000000,closed
+875,Covidien,c:31915,BARRX Medical,c:51890,325000000,15000000,acquired
+876,Monitise,c:17661,ClairMail,c:5192,173000000,34100000,acquired
+877,,,Hurricane Party,c:51969,0,20000,closed
+878,Sonic Solutions,c:4804,Simple Star,c:522,6000000,7100000,acquired
+881,Under Armour,c:42816,MapMyFitness,c:52406,150000000,23500000,acquired
+882,Airbnb,c:9049,Fondu,c:52566,575000,575000,acquired
+883,,,Dilithium Networks,c:5264,0,98170000,closed
+884,,,Plethora Technology,c:52694,0,1000000,closed
+885,Adobe Systems,c:283,Efficient Frontier,c:5306,400000000,6000000,acquired
+887,,,GeekStatus,c:53304,0,435953,closed
+889,,,TelASIC Communications,c:53471,0,26000000,closed
+891,,,PacketHop,c:53814,0,10000000,closed
+892,,,Inaura,c:53831,0,8500000,closed
+893,Twitter,c:12,AdGrok,c:53885,10000000,470000,acquired
+894,,,T-Networks,c:53946,0,5750000,closed
+895,,,Wesabe,c:54,0,4700000,closed
+896,,,Blue Vector Systems,c:54066,0,4000000,closed
+897,Stratasys,c:148258,MakerBot,c:54077,403000000,10000000,acquired
+898,American Express,c:1640,Sometrics,c:5411,30000000,5550000,acquired
+899,,,Invicta Networks,c:54177,0,200000,closed
+901,,,Smooth-Stone,c:54488,0,48000000,closed
+905,ValueClick,c:840,Greystripe,c:549,75000000,17600000,acquired
+907,,,ezzai - how to arabia,c:55044,0,45000000,closed
+910,VeriFone,c:32951,WAY Systems,c:55354,9000000,22000000,acquired
+914,,,Fashism,c:55436,0,1000000,closed
+915,,,Wander (f. YongoPal),c:55592,0,185000,closed
+916,,,PANTA Systems,c:55829,0,9500000,closed
+917,Teradata,c:25106,Aster Data Systems,c:5585,263000000,53000000,acquired
+918,Opsware,c:4999,iConclude,c:5587,53000000,12500000,acquired
+921,,,RippleFunction,c:56478,0,20000,closed
+922,,,Sionex,c:56568,0,12000000,closed
+923,,,Generic Media,c:56580,0,2500000,closed
+924,GlaxoSmithKline,c:5663,Sirtris Pharmaceuticals,c:5662,720000000,82000000,acquired
+925,,,UniversityLyfe,c:56858,0,500000,closed
+926,Yahoo!,c:29,Qwiki,c:56989,50000000,10500000,acquired
+929,,,SpiralFrog,c:575,0,45000000,closed
+931,,,Visiprise,c:57923,0,32000000,closed
+932,,,Sidecar.me,c:5800,0,5100000,closed
+937,,,Tutorspree,c:58420,0,1800000,closed
+941,,,Klir Technologies,c:58560,0,8700000,closed
+942,,,Dormzy,c:58696,0,250000,closed
+943,,,Hashable,c:58699,0,4000000,closed
+944,Twitter,c:12,MoPub,c:58944,350000000,18500000,acquired
+945,,,MessageGate,c:58998,0,5000000,closed
+946,,,Sychron Advanced Technologies,c:59018,0,5000000,closed
+947,,,Nettle,c:59054,0,500000,closed
+950,,,Diversion,c:59298,0,300000,closed
+952,Opera Software,c:2584,Skyfire Labs,c:5936,155000000,40800000,acquired
+953,,,Aptera,c:5952,0,36300000,closed
+955,,,CafeBots,c:59709,0,5000000,closed
+956,Google,c:59,Jambool,c:5986,70000000,6000000,acquired
+958,O2,c:38385,Jajah,c:60,207000000,33000000,acquired
+961,Cisco,c:28,IronPort Systems,c:6012,830000000,61500000,acquired
+962,,,Blue Buzz Network,c:60186,0,1310000,closed
+963,,,Kiha Software,c:60243,0,20000000,closed
+964,,,World Blender,c:60352,0,12000,closed
+967,,,TeleFlip,c:6049,0,4900000,closed
+968,,,Lazarus Therapeutics,c:60516,0,100000,closed
+973,,,Inertia Beverage Group,c:6150,0,25500100,closed
+974,,,Flud,c:61592,0,2100000,closed
+975,,,Gamook,c:6171,0,1500000,closed
+976,AppDirect,c:74323,Standing Cloud,c:61783,9000000,10000003,acquired
+977,,,DotSpots,c:6219,0,300000,closed
+980,CondÚ Nast,c:318,ZipList,c:62432,14000000,4500000,acquired
+982,Google,c:59,YouTube,c:63,1650000000,11500000,acquired
+984,Symantec,c:3320,PasswordBank,c:63053,0,3500000,acquired
+986,,,Slipstream,c:63217,0,20000,closed
+987,,,Cozi Group,c:6340,0,26390819,closed
+989,,,Lifestander,c:63621,0,31000,closed
+990,Apple,c:1654,Quattro Wireless,c:637,275000000,28300000,acquired
+991,,,Weatherista,c:63731,0,500000,closed
+998,American Express,c:1640,Accertify,c:6520,150000000,4700000,acquired
+999,,,Bevvy,c:65389,0,100000,closed
+1000,,,Help Me Rent Magazine,c:65601,0,500000,closed
+1002,ADOR,c:53254,Plixi,c:65620,10000000,2600000,acquired
+1003,,,Inhale Digital,c:65806,0,1300000,closed
+1007,,,GreenGoose!,c:66706,0,1200000,closed
+1010,,,Pipewise,c:67806,0,3500000,closed
+1016,,,Loud3r,c:6854,0,3529175,closed
+1018,,,Swaptree Inc.,c:6964,0,11300000,closed
+1021,,,Define My Style,c:70021,0,690000,closed
+1025,,,StyleTrek,c:70661,0,1500000,closed
+1026,,,Loosecubes,c:70893,0,9030000,closed
+1027,,,Triples Media,c:71120,0,100000,closed
+1028,,,nprogress,c:71372,0,1700000,closed
+1030,,,FlyCast,c:7163,0,2100000,closed
+1031,SolarCity,c:12352,Zep Solar,c:71639,158000000,10571182,acquired
+1032,,,Color Labs Inc.,c:71852,0,41000000,closed
+1033,Google,c:59,GrandCentral,c:72,60000000,4000000,acquired
+1034,,,rPath,c:7207,0,32500000,closed
+1035,MySpace,c:494,imeem,c:725,1000000,24750000,acquired
+1036,Google,c:59,AdMob,c:726,750000000,46800000,acquired
+1040,SoundCloud Inc.,c:6745,Instinctiv,c:7329,10000000,1420698,acquired
+1041,,,Fortisphere,c:7345,0,10000000,closed
+1042,Facebook,c:5,Onavo,c:73586,150000000,13000000,acquired
+1044,LivingSocial,c:8583,SocialMedia.com,c:741,3000000,10000000,acquired
+1049,Cvent,c:3399,CrowdCompass,c:74928,10000000,1300000,acquired
+1051,,,Solmentum,c:75500,0,325000,closed
+1052,,,Sonya Labs,c:7561,0,25000,closed
+1053,,,Million Dollar Earth,c:75796,0,30000,closed
+1055,Google,c:59,PeakStream,c:7613,20300000,22000000,acquired
+1056,EMC,c:966,Mozy,c:762,76000000,1900000,acquired
+1057,,,Sonar.me,c:76274,0,200000,closed
+1059,,,CatchFree,c:76463,0,5500000,closed
+1061,,,Plizy,c:76543,0,5200000,closed
+1064,Concur Technologies,c:18871,TripIt,c:767,120000000,13100000,acquired
+1065,,,Tripl,c:76765,0,900000,closed
+1066,AOL,c:351,Adap.tv,c:77,405000000,48500000,acquired
+1067,Intuit,c:2537,Mint.com,c:771,170000000,31775000,acquired
+1069,,,Flowgram,c:7748,0,1300000,closed
+1070,Cisco,c:28,JouleX,c:78759,107000000,17000000,acquired
+1072,,,HelpMeRent.com,c:79089,0,154000,closed
+1074,,,Gigi Hill,c:79149,0,4000000,closed
+1075,LinkedIn,c:176,Pulse,c:79431,90000000,9800000,acquired
+1076,,,TrustDegrees,c:79456,0,11000,closed
+1081,,,Eyeona,c:80259,0,2000000,closed
+1082,,,Matatena Games,c:80400,0,120000,closed
+1085,,,RatePoint,c:810,0,24500000,closed
+1087,,,Caterva,c:81474,0,2408500,closed
+1088,,,Moprise,c:81475,0,2238055,closed
+1091,,,skyrockit,c:81886,0,2600000,closed
+1092,,,neoSaej,c:8251,0,13130000,closed
+1096,,,MyDoorman,c:83173,0,100000,closed
+1097,,,ItsGoinOn,c:83176,0,100000,closed
+1099,,,Eons,c:833,0,32000000,closed
+1101,AOL,c:351,5min Media,c:835,65000000,12800000,acquired
+1102,,,Myrio,c:8351,0,20500000,closed
+1103,Twitter,c:12,Crashlytics,c:83692,100000000,6000000,acquired
+1105,,,CrowdSling,c:84008,0,40000,closed
+1107,Facebook,c:5,Parse,c:84320,90000000,7000000,acquired
+1108,,,Link_A_Media Devices,c:84867,0,47218498,closed
+1109,,,Lexy,c:8494,0,1708000,closed
+1111,,,Cuil,c:856,0,33000000,closed
+1113,,,Carbonetworks,c:8596,0,5000000,closed
+1115,,,Netgamix Inc,c:86120,0,132885,closed
+1118,Rimage,c:55913,Qumu,c:8718,52000000,24750000,acquired
+1121,Yahoo!,c:29,Xobni,c:886,48000000,41752000,acquired
+1122,Google,c:59,Admeld,c:8972,400000000,30000000,acquired
+1123,VMware,c:5990,SpringSource,c:8990,362000000,25000000,acquired
+1126,GoDaddy,c:3169,Locu,c:90087,70000000,4600000,acquired
+1127,,,Six Degrees Games,c:9038,0,17999998,closed
+1128,,,BrightQube,c:904,0,850000,closed
+1129,eBay,c:20,Hunch,c:9050,80000000,19200000,acquired
+1130,DeNA,c:9636,ngmoco,c:9068,400000000,44800000,acquired
+1131,,,Local Marketers,c:9085,0,4100000,closed
+1132,,,LeisureLogix,c:9106,0,5900000,closed
+1133,,,Mix & Meet,c:915,0,400000,closed
+1136,,,Sim Ops Studios,c:933,0,698866,closed
+1138,Compuware,c:6651,dynaTrace software,c:9373,256000000,21900000,acquired
+1139,IBM,c:3246,Worklight,c:938,70000000,17600000,acquired
+1143,AuthenTec,c:26999,Atrua Technologies,c:9665,600000000,13000000,acquired
+1144,,,Sequoia Communications,c:9668,0,74000000,closed
+1146,Salesforce,c:1972,Salesforce Buddy Media,c:967,689000000,90000000,acquired
+1147,Visa,c:17066,PlaySpan,c:971,190000000,46300000,acquired
+1148,,,OfferLounge,c:9730,0,120000,closed
+1154,Yahoo!,c:29,Zimbra,c:997,350000000,14500000,acquired
