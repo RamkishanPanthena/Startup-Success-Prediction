@@ -51,10 +51,9 @@ Data was pre-processed by analyzing the data on mysql database and by joining da
 
 | Index (ID #) | "Domain" Task  | Analytic Task (Low-level) | Search Task (Mid-level) | Analyze Task (High-level) |
 |:------------:|:--------------:|:-------------:|:-----------:|:------------:|
-| 1  | Draw Sankey diagram showing relationship between different features and labels | Identify | Explore | Discover |
+| 1  | Understand the relationship between different features and labels | Identify | Explore | Discover |
 | 2  | Discover best model of predicting startup success | Compare | Explore | Derive |
-| 3  | Predict startup success/failure on currently operating companies | Identify | Browse | Present |
-| 4  | Group startup predictions by state and visualize them on a map | Summarize | Browse | Discover |
+| 3  | Predict startup success/failure on new data and visualize results | Identify | Browse | Present |
 
 #### Task #1
 
@@ -66,11 +65,7 @@ In this step, user will predict best model by **comparing** different machine le
 
 #### Task #3
 
-Based on the model the user selects in the previous task, he will then make predictions and **identify** which startups are likely to succeed or fail. The predictions can be **browsed** through and **presented** to the end user.
-
-#### Task #4
-
-The predictions of the startups have to be grouped by state to get the mean startup success prediction at a state level. At a low-level, this would be a **summarize** task. The use can **browse** through different states **discover** new insights.
+Based on the model the user selects in the previous task, he will then make predictions and **identify** which startups are likely to succeed or fail. The predictions can be grouped by state and visualized at a state level. The use can **browse** through different states to **discover** new insights.
 
 ## Model Description
 
@@ -88,21 +83,45 @@ Each model will be evaluated by plotting ROC curves. Sometimes classification ac
 
 #### Sketch #1: Scatter Plot and Sankey Diagram for EDA
 
-A Scatter plot and Sankey diagram will help the user visualize the strong correlation between some of the features and labels. The user should be able to interactively hover his mouse over the data points or the data flow and look at how the features are related to the labels.
+This visualization tries to fulfill Task#1, to "Understand the relationship between different features and labels"
+
+The first visualization is a scatter plot which shows the relationship between the amount spent on acquiring a company to the total funding a company received. The funding amount of a company would be on the x-axis represented in millions of dollars, and the amount spent on acquiring a company on the y-axis represented in billions of dollars. Companies that were not acquired will have an acquisition amount of 0. 
+
+This scatter plot will help visualize the relationship between total funding and price acquired, which will help the end user understand the correlation between the two.
+
+The visualization to the right uses a sankey diagram to show the correlation between the number of milestones a company had to the company's success/failure. The nodes on the left are the number of milestones a company had which were grouped into different categories, for e.g.:
+
+  * companies with 0 milestones
+  * companies with 1-5 milestones
+  * companies with 5-10 milestones
+
+The nodes on the right represent whether a startup was a success or failure. The links will connect each individual company milestone to its corresponding success/failure. The width of the links are proportional to the flow quantity.
+
+Sankey diagrams help in locating dominant contributions to an overall flow by putting a visual emphasis on the major flows within a system. This will help the user visualize the correlation between the number of company milestones to its success/failure.
 
 <img src="https://user-images.githubusercontent.com/29097566/48744992-a0cdd300-ec37-11e8-8b4f-469c55532968.jpg" height="350" width="600">
 
 #### Sketch #2: Model selection and hyper-parameter tuning
 
-Here the end user should be able to train different machine learning models and visualize the model performance through an ROC curve. Based on the feedback the user gets from the ROC curve, he should be able to tweak the hyper-parameters, revise the model and re-train it. This should help the user to decide upon the best model and hyper-parameters he wants to use for building his final model.
+This visualization tries to fulfill Task#2, to "Discover best model of predicting startup success".
+
+Here the end user should be able to train different machine learning models and visualize the model performance through an ROC curve. The user should be able to select different models to train from the dropdown. He can also tweak his model by providing different hyper-parameter values and re-train his model until he is satisfied with the feedback.
+
+Based on the feedback the user gets from the ROC curve, he can juxtapose several ROC curves with different hyper-parameters and/or different models compare the results to decide upon the best model. The ROC Curve which looks at the True Positive Rate and False Positive Rate thereby looking at models based on the balance thresholds of sensitivity and specificity would be a better way of evaluating the model.
 
 <img src="https://user-images.githubusercontent.com/29097566/48745223-952edc00-ec38-11e8-8d37-58f96b2bf18d.jpg" height="450" width="600">
 
 #### Sketch #3: Predictions and visualizations by state
 
-Once the user has decided upon his final model and hyper-parameters to use, he will then train the model and make predictions on new data. These predictions would decide whether a currently operating startup would be a success or failure. These results would then be grouped by state and the user will be able to visualize the state wise predictions of startup success/failure. Each state will have a diverging color scale based on the mean startup success probability of a state. As geographic location is one of the top factors in predicting startup performance, this would give the end user an idea of how the startups would perform in each state.
+The next visualization fulfills Task#3, to "Predict startup success/failure on new data and visualize results".
+
+Once the user has decided upon his final model and hyper-parameters to use, he will then train the model and make predictions on new data. These predictions would decide whether a currently operating startup would be a success or failure. These results would then be grouped by state to get the mean startup success/failure probabilities. These probabilities will then be used to measure the state wise predictions of startup success/failure. Each state will have a diverging color scale based on the mean startup success probability of a state. The user should be able to interactively hover over each state to get additional information about them such as the number of companies predicted to succeed or fail in that state and mean probability of success.
+
+As geographic location is one of the top factors in predicting startup performance, this visualization would give the end user an idea of how the startups would perform in each state. The user might discover new insights about companies that are performing surprisingly well in certain states, an intuition which they didn't have before. This new perception might give investors more confidence to invest heavily in startups from those states.
 
 <img src="https://user-images.githubusercontent.com/29097566/48745267-bbed1280-ec38-11e8-902e-48eb44f6daa8.jpg" height="500" width="600">
+
+Based on these visualizations, we developed the final design sketches as follows:
 
 ## Final Visualization
 
