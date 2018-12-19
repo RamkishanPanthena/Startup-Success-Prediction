@@ -143,27 +143,28 @@ A diverging color palette was used as data from both the positive and negative c
 
 #### **Visualization #2**
 
-Below is a Sankey diagram showing the correlation between the number of company relationships to its success/failure. The nodes on the source end represent the number of relationships a company during its operation which have been grouped into 5 different groups. Color of the node denotes a particular grouping. The value of the node is the sum of incoming or outgoing link values connected to it. These values are visually represented by the nodes height, with longer bars denoting more incoming or outgoing values. The width of the links are directly proportional to the flow quantity. The nodes at the destination represent the labels which tell us whether a company was successful or not and are represented by green and red color respectively. These diagrams have been visualized in Plotly. The user can run the actual code through a Jupyter notebook and hover the mouse over the nodes/links to determine their strength and the count of incoming of outgoing link values.
+Below is a Sankey diagram showing the correlation between the number of company relationships to its success/failure. The nodes on the source end represent the number of relationships a company during its operation which have been grouped into 5 different groups. Color of the node denotes a particular grouping. The value of the node is the sum of incoming or outgoing link values connected to it. These values are visually represented by the nodes height, with longer bars denoting more incoming or outgoing values. The width of the links are directly proportional to the flow quantity. The nodes at the destination represent the labels which tell us whether a company was successful or not and are represented by green and red color respectively. These visualizations have been built in Plotly. The user can run the actual code through a Jupyter notebook and hover the mouse over the nodes/links to determine their strength and the count of incoming of outgoing link values.
 
 From the below Sankey diagram, we can see that companies with fewer relationships are more likely to fail as compared to companies with more relationships.
 
-![sankey1](https://user-images.githubusercontent.com/29097566/48718347-342be780-ebe9-11e8-97c6-4f829c6b6a05.JPG)
+![sankey1](https://user-images.githubusercontent.com/29097566/50226303-de299b80-0370-11e9-9afa-bc3f3697b8fa.JPG)
 
 #### **Visualization #3**
 
 Below is another Sankey diagram which is now showing the correlation between the number of company milestones to its success/failure. The design choices made were similar to the previous Sankey diagram. Here we can see that companies with more number milestones are more likely to succeed as compared to companies with fewer milestones.
 
-![sankey2](https://user-images.githubusercontent.com/29097566/48718422-5b82b480-ebe9-11e8-8ce3-d4f19ecdfa0b.JPG)
+![sankey2](https://user-images.githubusercontent.com/29097566/50226348-fac5d380-0370-11e9-9c30-1363a4e64a9f.JPG)
 
 #### **Visualization #4**
 
-Scatter plot of the total funding a company received to the amount spent on acquiring that company. Companies that have been closed with have an acquisition amount of 0. We can see that there is a positive correlation between the two.
+The below visualization is a scatter plot which shows the relationship between the amount spent on acquiring a company to the total funding a company received. The funding amount of a company would be on the x-axis represented in millions of dollars, and the amount spent on acquiring a company on the y-axis represented in billions of dollars. Companies that were not acquired will have an acquisition amount of 0. We can see that there is a positive correlation between the two.
+
+This visualization has also been built in Plotly. The user can run the actual code through the Jupyter notebook and hover the mouse over each point to interactively compare or show the closet data on hover. 
 
 ![scatter](https://user-images.githubusercontent.com/29097566/48718553-9f75b980-ebe9-11e8-95b8-d1449da43173.png)
 
 ## Final Visualization
 
-### Packages utilized
 This project implements a web-based client-side visualization connected via a REST API to server-side modeling which is running on your own server. The final visualization has been built in HTML, CSS, D3 and Flask(Python). Models have been trained in Python and deployed through a heroku app. You will need to install the following Python packages first:
 
 * pandas
@@ -177,7 +178,7 @@ This project implements a web-based client-side visualization connected via a RE
 The heroku app has been deployed at:
 http://startup-success-prediction-new.herokuapp.com/
 
-The final visualization uses a diverging color scale showing the state-wise success probability of startups. Green and Red colors were consistently used through the project with green being used for states/companies with higher success probabilities and red used for states/companies with lower success probabilities. The final visualization also has a legend showing probability classes for different color schemes.
+The final visualization uses a diverging color scale showing the state-wise success probability of startups. Green and Red colors were consistently used through the project with green being used for states/companies with higher success probabilities and red used for states/companies with lower success probabilities. States like Alaska, North Dakota where no startups have been founded have been greyed out. The final visualization also has a legend showing probability classes for different color schemes. The user can also gain additional information like the number of startups predicted to be successful or unsuccessful at a state level. He can also find out what is the mean startup success probability in that state by hovering over any state.
 
 Finally we have an app with the following functionalities:
 
