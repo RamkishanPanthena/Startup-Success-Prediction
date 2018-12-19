@@ -123,8 +123,6 @@ As geographic location is one of the top factors in predicting startup performan
 
 Based on these visualizations, we developed the final design sketches as follows:
 
-## Final Visualization
-
 ### Final design sketches
 
 ![slide1](https://raw.githubusercontent.com/RamkishanPanthena/Startup-Success-Prediction/master/sketches/Final%20Sketches/Slide1.JPG)
@@ -133,9 +131,40 @@ Based on these visualizations, we developed the final design sketches as follows
 ![slide4](https://raw.githubusercontent.com/RamkishanPanthena/Startup-Success-Prediction/master/sketches/Final%20Sketches/Slide4.JPG)
 ![slide5](https://raw.githubusercontent.com/RamkishanPanthena/Startup-Success-Prediction/master/sketches/Final%20Sketches/Slide5.JPG)
 
-### Packages utilized
+## Data Analysis: Summary of interesting results
 
-This project implements a web-based client-side visualization connected via a REST API to server-side modeling which is running on your own server. You will need to install the following Python packages first:
+#### **Visualization #1**
+
+Correlograms are images of correlation statistics which help us visualize the data in correlation matrices. By visualizing the correlations between features, we can gain intuitions about the high correlations between some variables. We might use these insights to drop a few high correlated features in variable selection of there is no significant loss of information in the model.
+
+A diverging color palette was used as data from both the positive and negative correlations could be interesting. The positive correlations were represented by blue while the negative correlations were represented by red. From the below Correlogram, we can see that there isn’t a very high correlation between the individual features. Thus, most of the features are unique and can be used for training the model.
+
+![corr](https://user-images.githubusercontent.com/29097566/48717478-7f44fb00-ebe7-11e8-8d93-4f2d6ea1c5b2.png)
+
+#### **Visualization #2**
+
+Below is a Sankey diagram showing the correlation between the number of company relationships to its success/failure. The nodes on the source end represent the number of relationships a company during its operation which have been grouped into 5 different groups. Color of the node denotes a particular grouping. The value of the node is the sum of incoming or outgoing link values connected to it. These values are visually represented by the nodes height, with longer bars denoting more incoming or outgoing values. The width of the links are directly proportional to the flow quantity. The nodes at the destination represent the labels which tell us whether a company was successful or not and are represented by green and red color respectively. These diagrams have been visualized in Plotly. The user can run the actual code through a Jupyter notebook and hover the mouse over the nodes/links to determine their strength and the count of incoming of outgoing link values.
+
+From the below Sankey diagram, we can see that companies with fewer relationships are more likely to fail as compared to companies with more relationships.
+
+![sankey1](https://user-images.githubusercontent.com/29097566/48718347-342be780-ebe9-11e8-97c6-4f829c6b6a05.JPG)
+
+#### **Visualization #3**
+
+Below is another Sankey diagram which is now showing the correlation between the number of company milestones to its success/failure. The design choices made were similar to the previous Sankey diagram. Here we can see that companies with more number milestones are more likely to succeed as compared to companies with fewer milestones.
+
+![sankey2](https://user-images.githubusercontent.com/29097566/48718422-5b82b480-ebe9-11e8-8ce3-d4f19ecdfa0b.JPG)
+
+#### **Visualization #4**
+
+Scatter plot of the total funding a company received to the amount spent on acquiring that company. Companies that have been closed with have an acquisition amount of 0. We can see that there is a positive correlation between the two.
+
+![scatter](https://user-images.githubusercontent.com/29097566/48718553-9f75b980-ebe9-11e8-95b8-d1449da43173.png)
+
+## Final Visualization
+
+### Packages utilized
+This project implements a web-based client-side visualization connected via a REST API to server-side modeling which is running on your own server. The final visualization has been built in HTML, CSS, D3 and Flask(Python). Models have been trained in Python and deployed through a heroku app. You will need to install the following Python packages first:
 
 * pandas
 * sklearn
@@ -145,37 +174,30 @@ This project implements a web-based client-side visualization connected via a RE
 * Werkzeug
 * csv
 
+The heroku app has been deployed at:
+http://startup-success-prediction-new.herokuapp.com/
+
+The final visualization uses a diverging color scale showing the state-wise success probability of startups. Green and Red colors were consistently used through the project with green being used for states/companies with higher success probabilities and red used for states/companies with lower success probabilities. The final visualization also has a legend showing probability classes for different color schemes.
+
+Finally we have an app with the following functionalities:
+
+1) Train from a dropdown of different machine learning models and their corresponding hyper-parameters
+2) Visualize the performance of each model through an ROC Curve
+3) Juxtapose several ROC Curves to contrast the performance of different models and decide upon the best model
+4) Make predictions on new data
+5) Visualize these predictions at a state level 
+6) Add interactively to allow the user to gain additional information about companies in each state
+
+Scope for future:
+
+1) Provide more machine learning models for model training
+2) Allow the user to zoom in on any state and interactively visualize the region-wise performance of startups in that state using the company's latitude and longitude coordinates
+
 ### UI Walkthrough
 
 Below is an embedded youtube video giving a walkthrough of the UI:
 
 [![Alt text](https://img.youtube.com/vi/cTs7wR2H8cg/0.jpg)](https://www.youtube.com/watch?v=cTs7wR2H8cg)
-
-## Data Analysis: Summary of interesting results
-
-#### **Visualization #1**
-
-Correlograms are images of correlation statistics which show the correlation between features. From the below Correlogram, we can see that there isn’t a very high correlation between the individual features. Thus, most of the features are unique and can be used for training the model.
-
-![corr](https://user-images.githubusercontent.com/29097566/48717478-7f44fb00-ebe7-11e8-8d93-4f2d6ea1c5b2.png)
-
-#### **Visualization #2**
-
-From the below Sankey diagram, we can visualize the number of key relationships a company had and correlate it to its success/failure. We can see that companies with fewer relationships are more likely to fail as compared to companies with more relationships.
-
-![sankey1](https://user-images.githubusercontent.com/29097566/48718347-342be780-ebe9-11e8-97c6-4f829c6b6a05.JPG)
-
-#### **Visualization #3**
-
-Another sankey diagram showing a similar relationship between number of company milestones and its success/failure.
-
-![sankey2](https://user-images.githubusercontent.com/29097566/48718422-5b82b480-ebe9-11e8-8ce3-d4f19ecdfa0b.JPG)
-
-#### **Visualization #4**
-
-Scatter plot of the total funding a company received to the amount spent on acquiring that company. Companies that have been closed with have an acquisition amount of 0. We can see that there is a positive correlation between the two.
-
-![scatter](https://user-images.githubusercontent.com/29097566/48718553-9f75b980-ebe9-11e8-95b8-d1449da43173.png)
 
 ## Conclusion
 
