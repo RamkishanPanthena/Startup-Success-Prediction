@@ -182,17 +182,17 @@ The final visualization uses a diverging color scale showing the state-wise succ
 
 Finally we have an app with the following functionalities:
 
-1) Train from a dropdown of different machine learning models and their corresponding hyper-parameters
-2) Visualize the performance of each model through an ROC Curve
-3) Juxtapose several ROC Curves to contrast the performance of different models and decide upon the best model
-4) Make predictions on new data
-5) Visualize these predictions at a state level 
-6) Add interactively to allow the user to gain additional information about companies in each state
+1. Train from a dropdown of different machine learning models and their corresponding hyper-parameters
+2. Visualize the performance of each model through an ROC Curve
+3. Juxtapose several ROC Curves to contrast the performance of different models and decide upon the best model
+4. Make predictions on new data
+5. Visualize these predictions at a state level 
+6. Add interactively to allow the user to gain additional information about companies in each state
 
 Scope for future:
 
-1) Provide more machine learning models for model training
-2) Allow the user to zoom in on any state and interactively visualize the region-wise performance of startups in that state using the company's latitude and longitude coordinates
+1. Provide more machine learning models for model training
+2. Allow the user to zoom in on any state and interactively visualize the region-wise performance of startups in that state using the company's latitude and longitude coordinates
 
 ### UI Walkthrough
 
